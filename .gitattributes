@@ -1,0 +1,5 @@
+# Set default behavior for all text files to be normalized
+* text=auto
+
+# Handle Jupyter Notebook files specifically
+*.ipynb text
