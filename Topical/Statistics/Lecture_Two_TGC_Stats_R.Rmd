@@ -1,0 +1,135 @@
+---
+title: "Lecture_Two_TGC_Stats_R"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+```{r}
+print("Hello World",quote=FALSE)
+```
+
+```{r}
+widget = c(3,0,10,-4,0.5)
+widget ^ widget
+```
+
+Our first plot.
+```{r}
+x = c(1, 2, 3, 4, 5)
+y = c(1, 8, 27, 64, 125)
+plot(x, y, main="Our first R plot!",
+     xlab = "Integers 1-5",
+     ylab = "Integers 1-5 cubed")
+```
+We can always use `install.packages()` to install new packages.
+
+We will use `install.packages("datasets")` to get datasets available.
+
+We will then load that library as follows: `library(datasets)`.
+
+We want to get `data(faithful)` so we can do the following plot:
+
+```{r}
+library(datasets)
+data("faithful")
+plot(faithful, main="Old Faithful Eruptions",
+     xlab = "Eruption length (min)",
+     ylab = "Wait time (min)", pch=20, col="red")
+```
+
+Now just the data.
+
+```{r}
+library(datasets)
+data("faithful")
+faithful
+```
+
+# Histogram
+
+```{r}
+hist(faithful$waiting, main="Histogram of faithful waiting",
+     xlab = "Wait time (mins)",
+     ylab = "Frequency")
+```
+
+Look to see where the breaks are in the data:
+
+```{r}
+# breaks in the dataset
+hist(faithful$waiting, plot=FALSE)$breaks
+hist(faithful$waiting, plot=FALSE)$counts
+
+```
+
+Creating a histogram with bin size = 1.  We would use the following code:
+```{r}
+hist(faithful$waiting,main="Histogram",
+     breaks=seq(from=40,to=100,by=1))
+```
+
+```{r}
+# Breaks
+hist(faithful$waiting,
+     breaks = seq(from=40,to=100,by=1), plot=FALSE)$breaks
+
+# Counts
+hist(faithful$waiting,
+     breaks=seq(from=40,to=100,by=1), plot=FALSE)$counts
+```
+Making a QQ Plot
+```{r}
+x = rnorm(300)
+qqnorm(x,pch=16,cex=.5)
+qqline(x)
+```
+Let's do a QQ plot for the Old Faithful Waiting data.
+
+```{r}
+qqnorm(faithful$waiting,pch=16,cex=.5,
+       main = "Q-Q Plot for Waiting Time")
+
+qqline(faithful$waiting)
+```
+What we take from this, relative to our simulated normal data in the prior QQ plot, is that the Old Faithful Wait Times are not normally distributed.
+
+Looking a variation from the normal line in simulated data.
+
+```{r}
+x = rnorm(30); qqnorm(x); qqline(x)
+```
+Even this line has data that pulls away from the normal line.
+
+How does sample size impact this?  Let's look at a larger sample.
+
+```{r}
+x = rnorm(100); qqnorm(x,pch=16,cex=.5); qqline(x)
+```
+
+## Gotchas!
+
+Don't write over built-in functions like `mean`, `c`, or `t`.
+
+You can guard against this by doing `?var_name`.
+
+See below:
+```{r}
+?mean
+```
+ 
+When we run that code in the help window on the right, we see the definition of the variable.  Similar to the others listed above.
+
+
