@@ -1,0 +1,45 @@
+### A Pluto.jl notebook ###
+# v0.19.46
+
+using Markdown
+using InteractiveUtils
+
+# ╔═╡ f392c7f0-72fd-11ef-00ce-9159533801e8
+7 + 12
+
+# ╔═╡ a85de6b6-6819-472d-b883-293d1355deae
+3.4 + 7.8
+
+# ╔═╡ dad538f4-7a5e-4bb3-957c-6ead42675d80
+println("Hello Pluto notebooks")
+
+# ╔═╡ db263163-24c6-4410-98b7-a85582c39cee
+begin
+	x = 21
+	y = 33
+	z = 34
+	a = 9
+end
+
+# ╔═╡ 8f93772c-49e8-4b83-95e9-2ad85ceae023
+begin
+	zivald = (x + y + z)^a
+end
+
+# ╔═╡ f8a33235-1f22-4e05-940b-7cf695c5705f
+println(zivald)
+
+# ╔═╡ 28b74f37-0c74-4141-b7ea-c9d803755361
+begin
+	pevor = (a + y + z)^x
+	println(pevor)
+end
+
+# ╔═╡ Cell order:
+# ╠═f392c7f0-72fd-11ef-00ce-9159533801e8
+# ╠═a85de6b6-6819-472d-b883-293d1355deae
+# ╠═dad538f4-7a5e-4bb3-957c-6ead42675d80
+# ╠═db263163-24c6-4410-98b7-a85582c39cee
+# ╠═8f93772c-49e8-4b83-95e9-2ad85ceae023
+# ╠═f8a33235-1f22-4e05-940b-7cf695c5705f
+# ╠═28b74f37-0c74-4141-b7ea-c9d803755361
