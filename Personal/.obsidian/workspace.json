@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "5a038d5787fbdd2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "344980e5be08f426",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9a1d76ada6dbb55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angle Calibration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Angle Calibration"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2059f3cf97c389b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09f4b693a669e343",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3a55cfcc156b134",
+    "type": "split",
+    "children": [
+      {
+        "id": "4be412bbb90cbe1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfe6ae69200e847c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2b07a4469d761d40",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "09c7936a3e7d2e08",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "61b471a37d001c02",
+    "type": "split",
+    "children": [
+      {
+        "id": "30df23b7cfbc9e67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48be6f2f8f12f393",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Angle Calibration.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Angle Calibration"
+            }
+          },
+          {
+            "id": "31009c8d3b8966b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Angle Calibration.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Angle Calibration"
+            }
+          },
+          {
+            "id": "1e7c62115cf127d9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a408736910a18869",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Angle Calibration.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Angle Calibration"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c9a1d76ada6dbb55",
+  "lastOpenFiles": [
+    "Screenshot 2025-05-26 at 2.42.11 PM.png",
+    "Screenshot 2025-05-26 at 2.12.56 PM 1.png",
+    "Sexuality/Beducated/Penetration/Missionary/Missionary.md",
+    "Angle Calibration.md",
+    "Screenshot 2025-05-26 at 2.15.58 PM.png",
+    "Screenshot 2025-05-26 at 2.13.16 PM.png",
+    "Screenshot 2025-05-26 at 2.12.56 PM.png",
+    "Entry.md",
+    "Sexuality/Beducated/Penetration/Foreplay/Foreplay.md",
+    "Sexuality/Beducated/Penetration/Penetration.md",
+    "Sexuality/Beducated/Penetration/Missionary",
+    "Sexuality/Beducated/Penetration/Foreplay",
+    "Sexuality/Beducated/Penetration/Foreplay/Clit Clocking.md",
+    "Welcome.md",
+    "Sexuality/Beducated/Penetration",
+    "Relationships",
+    "Sexuality/Beducated",
+    "Sexuality"
+  ]
+}
