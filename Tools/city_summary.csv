@@ -1,0 +1,4 @@
+city,n_orders,total_revenue,total_margin,region
+Boise,1,900.0,400.0,Mountain
+Portland,3,7500.0,2600.0,Pacific NW
+Seattle,3,3400.0,1300.0,Pacific NW

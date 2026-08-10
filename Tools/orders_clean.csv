@@ -1,0 +1,8 @@
+order_id,city,order_date,revenue,cost,margin,month
+1001,Seattle,2024-01-05,1200.0,800,400.0,January
+1002,Seattle,2024-01-05,450.0,300,150.0,January
+1003,Portland,2024-02-11,3000.0,1900,1100.0,February
+1004,Portland,2024-02-12,2100.0,1400,700.0,February
+1005,Boise,2024-03-03,900.0,500,400.0,March
+1006,Seattle,2024-03-20,1750.0,1000,750.0,March
+1008,Portland,2024-04-15,2400.0,1600,800.0,April
